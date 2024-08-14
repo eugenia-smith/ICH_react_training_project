@@ -1,0 +1,15 @@
+.sponsors_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  min-height: 180px;
+  padding: 0 100px;
+}
+
+.logo_container {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
