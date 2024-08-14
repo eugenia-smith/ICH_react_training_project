@@ -4,7 +4,7 @@ import cooljob_icon from "../../assets/icons/cooljob_icon.svg";
 function Nav() {
   return (
     <div className={styles.nav_container}>
-      <picture>
+      <picture className={styles.nav_logo}>
         <img src={cooljob_icon} alt="cooljob logo" />
       </picture>
       <div className={styles.nav_menu}>

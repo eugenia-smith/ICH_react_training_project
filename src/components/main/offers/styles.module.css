@@ -1,0 +1,18 @@
+.offers_section {
+  display: flex;
+  flex-direction: column;
+  gap: 126px;
+
+  padding: 100px;
+  background-color: #e4f2ff;
+}
+
+.visually_hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
