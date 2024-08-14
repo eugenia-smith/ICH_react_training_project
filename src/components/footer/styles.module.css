@@ -1,0 +1,47 @@
+.page_footer {
+  width: 100%;
+  padding: 56px 100px;
+
+  background-color: #52606d;
+}
+
+.popular_cities {
+  padding-bottom: 48px;
+  border-bottom: 2px solid #465461;
+}
+
+.cities_heading {
+  margin-bottom: 56px;
+
+  font-size: 22px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.cities_list {
+  display: flex;
+  justify-content: space-between;
+
+  list-style-type: none;
+}
+
+.cities_list li a {
+  font-size: 22px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #d0e8ff;
+}
+
+.social_media {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 64px 0 0;
+}
+
+.social_media_links {
+  display: flex;
+  gap: 36px;
+  list-style-type: none;
+}
