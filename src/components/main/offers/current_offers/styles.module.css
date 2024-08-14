@@ -1,0 +1,36 @@
+.current_offers_heading {
+  margin-bottom: 12px;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.current_offers_description {
+  margin-bottom: 42px;
+  font-size: 15px;
+  font-weight: 600;
+
+  color: rgba(141, 141, 141, 0.8);
+}
+
+.offer_card_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 450px);
+  grid-template-rows: repeat(auto-fill, 350px);
+  row-gap: 40px;
+  justify-content: space-between;
+}
+
+.more_offers_button {
+  display: block;
+  margin: 90px auto;
+  padding: 20px 50px;
+
+  max-width: fit-content;
+
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #fff;
+
+  background-color: #274059;
+}

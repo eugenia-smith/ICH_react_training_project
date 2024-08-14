@@ -1,0 +1,46 @@
+.offer_card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+
+  padding: 40px;
+
+  background-color: #ffffff;
+
+  box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.card_category {
+  display: flex;
+  gap: 16px;
+}
+
+.category_topic,
+.card_location,
+.employers_info {
+  color: rgba(141, 141, 141, 0.8);
+}
+
+.card_heading {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.card_location {
+  position: relative;
+  padding-left: 28px;
+}
+
+.card_location::before {
+  content: url(../../../../../assets/icons/location_grey_icon.svg);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.card_employer {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}

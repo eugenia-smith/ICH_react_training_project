@@ -8,7 +8,7 @@ import sony from "../../../assets/icons/sony_logo_icon.svg";
 function Sponsors() {
   return (
     <section className={styles.sponsors_container}>
-      <h2 className={styles.section_heading}>Our clients are:</h2>
+      <h2 className={styles.sponsors_heading}>Our clients are:</h2>
       <ul className={styles.logo_container}>
         <li className={styles.logo}>
           <img src={disney} alt="Disney logo" />

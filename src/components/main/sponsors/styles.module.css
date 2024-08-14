@@ -13,3 +13,9 @@
   align-items: center;
   gap: 24px;
 }
+
+.sponsors_heading {
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(105, 105, 105, 0.8);
+}
