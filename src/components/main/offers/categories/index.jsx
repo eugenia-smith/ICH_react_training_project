@@ -75,7 +75,7 @@ function Categories() {
 
   return (
     <div className={styles.categories_part}>
-      <h2 className={styles.categories_heading}>Categories of job search:</h2>
+      <h2 className={styles.categories_heading}>Discover top categories:</h2>
       <div className={styles.categories_list}>
         {categoriesArray.map((elem) => {
           return (
