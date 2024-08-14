@@ -1,0 +1,86 @@
+.banner_container {
+  position: relative;
+
+  overflow: hidden;
+
+  width: 100vw;
+  min-height: 696px;
+  padding: 131px 100px;
+
+  background-color: #cde7ff;
+}
+
+.banner_container::after {
+  content: url("../../../assets/deco/banner_deco_shape.svg");
+  position: absolute;
+  bottom: -120px;
+  right: -40px;
+}
+
+.banner_slogan {
+  margin-bottom: 16px;
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.banner_form {
+  display: flex;
+  align-items: center;
+
+  max-width: 1113px;
+
+  box-shadow: 6px 5px 9px 0px rgba(0, 0, 0, 0.35);
+}
+
+.banner_form input {
+  min-height: 105px;
+  width: 450px;
+  border: none;
+}
+
+.banner_form_label {
+  position: relative;
+}
+
+.banner_form_label input {
+  padding-left: 80px;
+}
+
+.banner_form_label input::placeholder {
+  font-size: 18px;
+  font-weight: 400;
+  color: #000;
+}
+
+.banner_form_label:first-child::after {
+  content: url(../../../assets/icons/search_icon.svg);
+  position: absolute;
+  top: 50%;
+  left: 30px;
+  transform: translateY(-50%);
+}
+
+.banner_form_label:nth-child(2)::after {
+  content: url(../../../assets/icons/location_icon.svg);
+  position: absolute;
+  top: 50%;
+  left: 150px;
+  transform: translateY(-50%);
+}
+
+.banner_form_label:nth-child(2) input {
+  padding-left: 200px;
+}
+
+.banner_search_button {
+  padding: 41px 70px;
+
+  height: 105px;
+  border: none;
+
+  background-color: #274059;
+
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+}
